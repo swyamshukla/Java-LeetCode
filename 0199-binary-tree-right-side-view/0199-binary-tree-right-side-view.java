@@ -14,28 +14,35 @@
  * }
  */
 class Solution {
-    void BFS(TreeNode root,List<Integer> result){
 
+    public static void recursion(TreeNode root, int[] arr, int level) {
+        if (root == null)
+            return;
+
+        arr[level-1] = root.val;
+  
+
+        recursion(root.left, arr, level + 1);
+        recursion(root.right, arr, level + 1);
+
+    }
+
+    public static int depth(TreeNode root) {
+        if (root == null)
+            return 0;
+        return 1 +Math.max(depth(root.left), depth(root.right));
     }
 
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> result = new ArrayList<>();
+        int level = depth(root);
 
-        Queue<TreeNode> q = new ArrayDeque<>();
-        if(root==null) return result;
-        q.add(root);
-        while(!q.isEmpty()){
-            int size = q.size();
+      int[] arr = new int[level];
 
-            for(int i=0;i<size;i++){
-                TreeNode temp = q.remove();
-                if(temp.left!=null)  q.add(temp.left);
-                if(temp.right!=null)  q.add(temp.right);
-                if(i==size-1) {
-                    result.add(temp.val);
-                }
-            }
 
+        recursion(root, arr, 1);
+        for (int i = 0; i < level; i++) {
+            result.add(arr[i]); // fill with 0 (or any value)
         }
         return result;
 
