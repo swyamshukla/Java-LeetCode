@@ -25,7 +25,7 @@ class Solution {
     public void flatten(TreeNode root) {
         List<TreeNode> result = new ArrayList<>();
         preOrder(root,result);
-        System.out.println(result);
+
         for(int i=0;i<result.size()-1;i++){
             result.get(i).right=result.get(i+1);
             result.get(i).left=null;
