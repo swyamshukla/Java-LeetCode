@@ -42,8 +42,6 @@ class Solution {
                 break;
             }
         }
-        System.out.println(pList);
-        System.out.println(qList);
         return ans;
 
     }
