@@ -26,18 +26,18 @@ class Solution {
 
     }
 
-    public static void helper(TreeNode root){
-        if(root==null) return;
+    // public static void helper(TreeNode root){
+    //     if(root==null) return;
 
-        depth(root);
-        helper(root.left);
-        helper(root.right);
-    }
+    //     depth(root);
+    //     helper(root.left);
+    //     helper(root.right);
+    // }
 
 
     public int diameterOfBinaryTree(TreeNode root) {
         max=0;
-        helper(root);
+        depth(root);
         return max;
-    }   
+    } 
 }
