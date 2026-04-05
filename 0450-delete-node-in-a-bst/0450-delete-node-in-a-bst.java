@@ -36,6 +36,7 @@ class Solution {
             }
             delete(root.right,val);
         }
+        
         if(root.val>val){
             if(root.left!=null && root.left.val==val){
             // zero child
