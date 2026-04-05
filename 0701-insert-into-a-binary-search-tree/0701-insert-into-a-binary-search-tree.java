@@ -17,21 +17,36 @@ class Solution {
 
     void insert(TreeNode root,int val,TreeNode prev){
 
-        if(root==null){
-            TreeNode temp = new TreeNode(val);
-            if(prev.val>val){
-                prev.left=temp;
+        // if(root==null){
+        //     TreeNode temp = new TreeNode(val);
+        //     if(prev.val>val){
+        //         prev.left=temp;
+        //     }
+        //     else{
+        //         prev.right=temp;
+
+        //     }
+        //     return;
+        // }
+
+
+         if(root.val<val) {
+            if(root.right==null){
+                TreeNode temp = new TreeNode(val);
+                root.right=temp;
+                return;
             }
-            else{
-                prev.right=temp;
-
+            insert(root.right,val,root);
+         }
+         if(root.val>val) {
+            if(root.left==null){
+                 TreeNode temp = new TreeNode(val);
+                root.left=temp;
+                return;     
             }
-            return;
-        }
 
-
-         if(root.val<val) insert(root.right,val,root);
-         if(root.val>val) insert(root.left,val,root);
+            insert(root.left,val,root);
+         }
 
     }
 
