@@ -1,40 +1,100 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+
+
 class Solution {
+   static void delete(TreeNode root,int val){
+        
+        if(root==null) return;
 
-    public TreeNode deleteNode(TreeNode root, int key) {
-        if (root == null) return null;
+        if(root.val<val){
+                // go right
+            if(root.right!=null && root.right.val==val){
+                // zero child
+                if(root.right.left==null && root.right.right==null){
+                    root.right=null;
+                    return;
+                }
+                // 1 child
+                else if(root.right.left==null || root.right.right==null){
+                    if(root.right.left==null){
+                        root.right=root.right.right;
+                    }
+                    else{
+                        root.right=root.right.left;
+                    }
+                    return;
+                }
+                // 2 child
+                else{
+                    TreeNode temp = root.right.left;
+                    while(temp.right!=null){
+                        temp=temp.right;
+                    }
+int val2 = temp.val;
+delete(root.right, val2);
+root.right.val = val2;
+                    return;
+                }
 
-        // Step 1: Find the node
-        if (key < root.val) {
-            root.left = deleteNode(root.left, key);
-        } 
-        else if (key > root.val) {
-            root.right = deleteNode(root.right, key);
-        } 
-        else { // Node found
 
-            // Case 1: No child
-            if (root.left == null && root.right == null) {
-                return null;
             }
-
-            // Case 2: One child
-            if (root.left == null) return root.right;
-            if (root.right == null) return root.left;
-
-            // Case 3: Two children
-            // 👉 Using successor (smallest in right subtree)
-            TreeNode succ = root.right;
-            while (succ.left != null) {
-                succ = succ.left;
+            delete(root.right,val);
+        }
+        else if(root.val>val){
+            if(root.left!=null && root.left.val==val){
+            // zero child
+            if(root.left.left==null && root.left.right==null){
+                root.left=null;
+                return;
             }
-
-            // Replace value
-            root.val = succ.val;
-
-            // Delete successor
-            root.right = deleteNode(root.right, succ.val);
+            // 1 child
+            else if(root.left.left==null || root.left.right==null){
+                    if(root.left.left==null){
+                        root.left=root.left.right;
+                    }
+                    else{
+                        root.left=root.left.left;
+                    }
+                    return;
+            }
+            else{
+                TreeNode temp = root.left.left;
+                    while(temp.right!=null){
+                        temp=temp.right;
+                    }
+int val2 = temp.val;
+delete(root.left, val2);
+root.left.val = val2;
+                    return;
+            }
+        }   
+            delete(root.left,val);
         }
 
-        return root;
     }
-}
+
+
+public TreeNode deleteNode(TreeNode root, int key) {
+    if (root != null && root.val == key) {
+        TreeNode dummy = new TreeNode(key + 1); // always > key, so goes left
+        dummy.left = root;
+        delete(dummy, key);
+        return dummy.left;
+    }
+    delete(root, key);
+    return root;
+}}
