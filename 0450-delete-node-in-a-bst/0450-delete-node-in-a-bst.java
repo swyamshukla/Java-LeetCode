@@ -1,6 +1,7 @@
 class Solution {
+
+
    static void delete(TreeNode root,int val){
-        
         if(root==null) return;
 
         if(root.val<val){
@@ -32,12 +33,10 @@ class Solution {
                     root.right.val = val2;
                     return;
                 }
-
-
             }
             delete(root.right,val);
         }
-        else if(root.val>val){
+        if(root.val>val){
             if(root.left!=null && root.left.val==val){
             // zero child
             if(root.left.left==null && root.left.right==null){
@@ -68,6 +67,7 @@ class Solution {
             delete(root.left,val);
     }
 }
+
 
 
 public TreeNode deleteNode(TreeNode root, int key) {
