@@ -15,45 +15,37 @@
  */
 class Solution {
 
-
-
-    static void insertBinarySearchTree(TreeNode root, int val,TreeNode prev){
+    void insert(TreeNode root,int val,TreeNode prev){
 
         if(root==null){
             TreeNode temp = new TreeNode(val);
-            if(prev.val<val){
-                prev.right=temp;
+            if(prev.val>val){
+                prev.left=temp;
             }
             else{
-                prev.left=temp;
+                prev.right=temp;
+
             }
             return;
         }
 
-        if(root.val<val){ // move right side;
 
-          insertBinarySearchTree(root.right,val,root);
+         if(root.val<val) insert(root.right,val,root);
+         if(root.val>val) insert(root.left,val,root);
 
-        }
-        if(root.val>val){ // move left side
-            insertBinarySearchTree(root.left,val,root);
-
-        }
-
-
-            
-        }
-
-
+    }
 
     public TreeNode insertIntoBST(TreeNode root, int val) {
-        TreeNode prev= null;
         if(root==null){
-             TreeNode temp = new TreeNode(val);
-            
+            TreeNode temp = new TreeNode(val);
             return temp;
         }
-        insertBinarySearchTree(root,val,prev);
+        insert(root,val,null);
         return root;
+        
+
+
+
+
     }
 }
