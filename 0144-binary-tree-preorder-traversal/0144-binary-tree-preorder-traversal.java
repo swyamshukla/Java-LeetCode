@@ -18,15 +18,17 @@ class Solution {
         Stack<TreeNode> stack = new Stack<>();
         List<Integer> list =new ArrayList<>();
 
-        stack.add(root);
-        if(root==null) return list;
-        while(!stack.isEmpty()){
-            TreeNode temp = stack.pop();
-            list.add(temp.val);
-         if(temp.right!=null)   stack.push(temp.right);
-           if(temp.left!=null)  stack.push(temp.left);
-        }
-        return list;
+       
+       
+       if(root==null) return list;
+       stack.push(root);
+       while(!stack.isEmpty()){
+        TreeNode temp = stack.pop();
+        if(temp.right!=null)stack.push(temp.right);
+        if(temp.left!=null)stack.push(temp.left);
+        list.add(temp.val);
+       }
 
+       return list;
     }
 }
