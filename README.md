@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String Matching
 |  |
 | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/swyamshukla/Java-LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [0572-subtree-of-another-tree](https://github.com/swyamshukla/Java-LeetCode/tree/master/0572-subtree-of-another-tree) |
 ## Hash Function
 |  |
@@ -109,4 +110,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/swyamshukla/Java-LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+## Hash Table
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/swyamshukla/Java-LeetCode/tree/master/0387-first-unique-character-in-a-string) |
+## Queue
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/swyamshukla/Java-LeetCode/tree/master/0387-first-unique-character-in-a-string) |
+## Counting
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/swyamshukla/Java-LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 <!---LeetCode Topics End-->
