@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/swyamshukla/Java-LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0912-sort-an-array](https://github.com/swyamshukla/Java-LeetCode/tree/master/0912-sort-an-array) |
+| [1046-last-stone-weight](https://github.com/swyamshukla/Java-LeetCode/tree/master/1046-last-stone-weight) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/swyamshukla/Java-LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0912-sort-an-array](https://github.com/swyamshukla/Java-LeetCode/tree/master/0912-sort-an-array) |
+| [1046-last-stone-weight](https://github.com/swyamshukla/Java-LeetCode/tree/master/1046-last-stone-weight) |
 ## Quickselect
 |  |
 | ------- |
