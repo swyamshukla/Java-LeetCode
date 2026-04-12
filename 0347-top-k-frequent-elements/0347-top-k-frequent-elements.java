@@ -12,18 +12,28 @@ class Solution {
             }
         }
 
-        List<Pair> list = new ArrayList<>();
+        // List<Pair> list = new ArrayList<>();
 
-        for(int key: hash.keySet()){
-            list.add(new Pair(key,hash.get(key)));
+        PriorityQueue<Pair> minHeap = new PriorityQueue<>((a,b)->a.freq-b.freq);
+
+        for(int ele :hash.keySet()){
+            minHeap.add(new Pair(ele,hash.get(ele)));
+            if(minHeap.size()>k){
+                minHeap.remove();
+            }
         }
-        Collections.sort(list,(a,b)->b.freq-a.freq);
+
+
+        // for(int key: hash.keySet()){
+        //     list.add(new Pair(key,hash.get(key)));
+        // }
+        // Collections.sort(list,(a,b)->b.freq-a.freq);
 
         int[] result = new int[k];
 
 
         for(int i=0;i<k;i++){
-            result[i]=list.get(i).key;
+            result[i]=minHeap.remove().key;
         }
         return result;
     }
