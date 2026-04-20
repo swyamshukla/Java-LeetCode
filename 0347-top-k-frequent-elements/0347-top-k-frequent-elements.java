@@ -21,7 +21,7 @@ class Solution {
             if(minHeap.size()>k){
                 minHeap.remove();
             }
-        }
+        } 
 
 
         // for(int key: hash.keySet()){
