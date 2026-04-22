@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0538-convert-bst-to-greater-tree](https://github.com/swyamshukla/Java-LeetCode/tree/master/0538-convert-bst-to-greater-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/swyamshukla/Java-LeetCode/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/swyamshukla/Java-LeetCode/tree/master/0701-insert-into-a-binary-search-tree) |
+| [1004-max-consecutive-ones-iii](https://github.com/swyamshukla/Java-LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/swyamshukla/Java-LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0912-sort-an-array](https://github.com/swyamshukla/Java-LeetCode/tree/master/0912-sort-an-array) |
 | [0973-k-closest-points-to-origin](https://github.com/swyamshukla/Java-LeetCode/tree/master/0973-k-closest-points-to-origin) |
+| [1004-max-consecutive-ones-iii](https://github.com/swyamshukla/Java-LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 | [1046-last-stone-weight](https://github.com/swyamshukla/Java-LeetCode/tree/master/1046-last-stone-weight) |
 ## Divide and Conquer
 |  |
@@ -175,4 +177,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/swyamshukla/Java-LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1004-max-consecutive-ones-iii](https://github.com/swyamshukla/Java-LeetCode/tree/master/1004-max-consecutive-ones-iii) |
+## Prefix Sum
+|  |
+| ------- |
+| [1004-max-consecutive-ones-iii](https://github.com/swyamshukla/Java-LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
