@@ -1,30 +1,21 @@
 class Solution {
-
-    int check(int[] nums,int goal){
-        int left=0;
-        int right=0;
-        int currSum=0;
+    public int numSubarraysWithSum(int[] nums, int goal) {
+        // USNNG PREFIX + HASMAP
+        HashMap<Integer,Integer> hash = new HashMap<>();
+        hash.put(0,1);
         int freq=0;
-        if(goal<0) return 0;
-
-        while(right<nums.length){
-            currSum+=nums[right];
-            while(currSum>goal){
-                currSum-=nums[left++];
+        int currSum=0;
+        for(int i=0;i<nums.length;i++){
+            currSum+=nums[i];
+            if(hash.containsKey(currSum-goal)){
+                freq+=hash.get(currSum-goal);
             }
-
-            freq+=right-left+1;
-            right++;
+            hash.put(currSum,hash.getOrDefault(currSum,0)+1);
         }
         return freq;
-    }
-    
-    public int numSubarraysWithSum(int[] nums, int goal) {
+
+
+
         
-        int r1=check(nums,goal);
-        int r2=check(nums,goal-1);
-
-        return r1-r2;
-
     }
 }
