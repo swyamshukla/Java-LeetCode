@@ -4,14 +4,22 @@ class Solution {
         return ways(m-1,n)+ways(m,n-1);
     }
     
-    public int uniquePaths(int m, int n) {
-        
+    int waysMemoisation(int m,int n,int[][] dp){
+        if(m==1 || n==1) return 1;
+        if(dp[m][n]!=-1) return dp[m][n];
+
+        return dp[m][n]=waysMemoisation(m-1,n,dp)+waysMemoisation(m,n-1,dp);
+    }
+    int waysTabulation(int m,int n){
+
         int[][] dp = new int[m][n];
 
         //row fill by 1 of dp
         for(int row=0;row<m;row++){
             dp[row][0]=1;
         }
+
+        //col fill by 1 of dp
         for(int col=0;col<n;col++){
             dp[0][col]=1;
         }
@@ -22,6 +30,18 @@ class Solution {
         }
 
         return dp[m-1][n-1];
+    }
+
+    public int uniquePaths(int m, int n) {
+
+        int[][] dp = new int[m+1][n+1];
+        for(int[] arr:dp){
+            Arrays.fill(arr,-1);
+        }
+
+        return waysMemoisation(m,n,dp);
+        
+
         
     }
 }
