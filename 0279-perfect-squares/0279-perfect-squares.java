@@ -1,0 +1,33 @@
+class Solution {
+
+
+    boolean checkSquare(int n){
+        int sqrt = (int)Math.sqrt(n);
+        return sqrt*sqrt==n;
+    }
+    int perfect(int n,int[] dp){
+        if(checkSquare(n)) return 1;
+        if(dp[n]!=-1) return dp[n];
+
+
+        int min = Integer.MAX_VALUE;
+    
+        for(int i=1;i*i<=n;i++){
+            int count = perfect(i*i, dp)+ perfect(n-i*i,dp);
+            min = Math.min(min,count);
+
+        }
+        return dp[n]=min;
+
+    }
+
+    int numSquares(int n){
+        int[] dp = new int[n+1];
+        Arrays.fill(dp,-1);
+        return perfect(n,dp);
+
+    }
+
+
+
+}
