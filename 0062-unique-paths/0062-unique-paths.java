@@ -1,30 +1,27 @@
 class Solution {
-
-    int paths(int m,int n,int[][]dp){
-        if(m==1 || n==1 )return 1;
-        if(dp[m][n]!=-1) return dp[m][n];
-        int left=paths(m,n-1,dp);
-        int right=paths(m-1,n,dp);
+    int ways(int m,int n){
+        if(m==1 || n==1) return 1;
+        return ways(m-1,n)+ways(m,n-1);
+    }
     
-        return dp[m][n]=left+right;
-    }
     public int uniquePaths(int m, int n) {
-            int[][] dp =new int[m+1][n+1];
+        
+        int[][] dp = new int[m][n];
 
-          for (int j = 0; j < n + 1; j++) {
-                dp[0][j]=1;
-            
-     }
-           for (int i = 0; i < m + 1; i++) {
-                dp[i][0]=1;
-    }
-            for(int i=1;i<m+1;i++){
-                for(int j=1;j<n+1;j++){
-                    dp[i][j]=dp[i-1][j]+dp[i][j-1];
-                }
+        //row fill by 1 of dp
+        for(int row=0;row<m;row++){
+            dp[row][0]=1;
+        }
+        for(int col=0;col<n;col++){
+            dp[0][col]=1;
+        }
+        for(int i=1;i<m;i++){
+            for(int j=1;j<n;j++){
+                dp[i][j]=dp[i-1][j]+dp[i][j-1];
             }
+        }
 
-
-            return dp[m-1][n-1];
+        return dp[m-1][n-1];
+        
     }
 }
