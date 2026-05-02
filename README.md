@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/swyamshukla/Java-LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/swyamshukla/Java-LeetCode/tree/master/0199-binary-tree-right-side-view) |
+| [0279-perfect-squares](https://github.com/swyamshukla/Java-LeetCode/tree/master/0279-perfect-squares) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/swyamshukla/Java-LeetCode/tree/master/0958-check-completeness-of-a-binary-tree) |
 ## Linked List
 |  |
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/swyamshukla/Java-LeetCode/tree/master/0062-unique-paths) |
+| [0279-perfect-squares](https://github.com/swyamshukla/Java-LeetCode/tree/master/0279-perfect-squares) |
 | [0973-k-closest-points-to-origin](https://github.com/swyamshukla/Java-LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [1248-count-number-of-nice-subarrays](https://github.com/swyamshukla/Java-LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 ## Geometry
@@ -205,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/swyamshukla/Java-LeetCode/tree/master/0062-unique-paths) |
+| [0279-perfect-squares](https://github.com/swyamshukla/Java-LeetCode/tree/master/0279-perfect-squares) |
 ## Combinatorics
 |  |
 | ------- |
