@@ -1,46 +1,40 @@
 class Solution {
 
-boolean checkPartition(int[] nums,int idx,int totalSum,int currSum,Boolean[][]dp){
+    boolean checkPartition(int[] nums, int idx, int currSum, int target, Boolean[][] dp){
 
-    // if(totalSum/2==currSum) return true;
-    if(totalSum/2==currSum) return true; 
+        if(currSum == target) return true;
 
-    if(idx<0) return false;
+        if(idx < 0) return false;
 
+        if(dp[idx][currSum] != null) return dp[idx][currSum];
 
-    if(dp[idx][currSum]!=null) return dp[idx][currSum];
+        boolean pick = false;
+        if(currSum + nums[idx] <= target){
+            pick = checkPartition(nums, idx-1, currSum + nums[idx], target, dp);
+        }
 
-    boolean pick =false;
-    if(currSum + nums[idx] <= totalSum/2){
-    pick = checkPartition(nums, idx-1, totalSum, currSum + nums[idx], dp);
-}
-    boolean skip = checkPartition(nums,idx-1,totalSum,currSum,dp);
+        boolean skip = checkPartition(nums, idx-1, currSum, target, dp);
 
-    return dp[idx][currSum]=pick||skip;
-
+        return dp[idx][currSum] = pick || skip;
     }
-
-
 
     public boolean canPartition(int[] nums) {
         int totalSum = findSum(nums);
+
         if(totalSum % 2 != 0) return false;
 
-        int m=nums.length;
-        int n=totalSum/2;
-        Boolean[][] dp = new Boolean[m][n+1];
-         
-         
-        return checkPartition(nums,nums.length-1,totalSum,0,dp);
+        int target = totalSum / 2;
+        int n = nums.length;
 
+        Boolean[][] dp = new Boolean[n][target + 1];
 
+        return checkPartition(nums, n-1, 0, target, dp);
     }
 
-
     int findSum(int[] nums){
-        int sum=0;
-        for(int i:nums){
-            sum+=i;
+        int sum = 0;
+        for(int i : nums){
+            sum += i;
         }
         return sum;
     }
