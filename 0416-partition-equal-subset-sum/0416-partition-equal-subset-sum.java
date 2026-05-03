@@ -2,7 +2,10 @@ class Solution {
 
 boolean checkPartition(int[] nums,int idx,int totalSum,int currSum,Boolean[][]dp){
 
-    if(totalSum==2*currSum) return true;
+    // if(totalSum/2==currSum) return true;
+    if(totalSum % 2 != 0) return false;
+    if(totalSum/2==currSum) return true; 
+
     if(idx<0) return false;
     if(currSum>totalSum) return false;
 
@@ -18,7 +21,7 @@ boolean checkPartition(int[] nums,int idx,int totalSum,int currSum,Boolean[][]dp
 
 
     public boolean canPartition(int[] nums) {
-        int totalSum=findSum(nums);
+        int totalSum = findSum(nums);
         int m=nums.length;
         int n=totalSum;
         Boolean[][] dp = new Boolean[m][n];
