@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/swyamshukla/Java-LeetCode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/swyamshukla/Java-LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0416-partition-equal-subset-sum](https://github.com/swyamshukla/Java-LeetCode/tree/master/0416-partition-equal-subset-sum) |
+| [0746-min-cost-climbing-stairs](https://github.com/swyamshukla/Java-LeetCode/tree/master/0746-min-cost-climbing-stairs) |
 | [0912-sort-an-array](https://github.com/swyamshukla/Java-LeetCode/tree/master/0912-sort-an-array) |
 | [0930-binary-subarrays-with-sum](https://github.com/swyamshukla/Java-LeetCode/tree/master/0930-binary-subarrays-with-sum) |
 | [0973-k-closest-points-to-origin](https://github.com/swyamshukla/Java-LeetCode/tree/master/0973-k-closest-points-to-origin) |
@@ -216,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0279-perfect-squares](https://github.com/swyamshukla/Java-LeetCode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/swyamshukla/Java-LeetCode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/swyamshukla/Java-LeetCode/tree/master/0416-partition-equal-subset-sum) |
+| [0746-min-cost-climbing-stairs](https://github.com/swyamshukla/Java-LeetCode/tree/master/0746-min-cost-climbing-stairs) |
 | [2915-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/swyamshukla/Java-LeetCode/tree/master/2915-length-of-the-longest-subsequence-that-sums-to-target) |
 ## Combinatorics
 |  |
