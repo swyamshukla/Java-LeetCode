@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/swyamshukla/Java-LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0516-longest-palindromic-subsequence](https://github.com/swyamshukla/Java-LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0572-subtree-of-another-tree](https://github.com/swyamshukla/Java-LeetCode/tree/master/0572-subtree-of-another-tree) |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/swyamshukla/Java-LeetCode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/swyamshukla/Java-LeetCode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 ## Hash Function
 |  |
@@ -222,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/swyamshukla/Java-LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0746-min-cost-climbing-stairs](https://github.com/swyamshukla/Java-LeetCode/tree/master/0746-min-cost-climbing-stairs) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/swyamshukla/Java-LeetCode/tree/master/1277-count-square-submatrices-with-all-ones) |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/swyamshukla/Java-LeetCode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [2915-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/swyamshukla/Java-LeetCode/tree/master/2915-length-of-the-longest-subsequence-that-sums-to-target) |
 ## Combinatorics
 |  |
