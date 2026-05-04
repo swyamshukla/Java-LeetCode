@@ -17,7 +17,7 @@ class Solution {
 
         int caught = lca(word1,word2,word1.length()-1,word2.length()-1,dp);
         
-
+        if(caught==1 && word1.length()==1 && word2.length()==1) return 0;
 
 
         return word1.length()+word2.length()-2*caught;
