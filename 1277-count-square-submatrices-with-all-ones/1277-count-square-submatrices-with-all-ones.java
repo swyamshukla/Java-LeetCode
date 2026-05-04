@@ -8,7 +8,7 @@ class Solution {
         int row = matrix.length;
         int col = matrix[0].length;
 
-        int[][]dp= new int[row+1][col+1];
+        int[][]dp= new int[row][col];
         dp[0][0]=matrix[0][0];
 
         int sum=0;
