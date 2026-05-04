@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/swyamshukla/Java-LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 | [1046-last-stone-weight](https://github.com/swyamshukla/Java-LeetCode/tree/master/1046-last-stone-weight) |
 | [1248-count-number-of-nice-subarrays](https://github.com/swyamshukla/Java-LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
+| [1277-count-square-submatrices-with-all-ones](https://github.com/swyamshukla/Java-LeetCode/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [2915-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/swyamshukla/Java-LeetCode/tree/master/2915-length-of-the-longest-subsequence-that-sums-to-target) |
 ## Divide and Conquer
 |  |
@@ -218,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/swyamshukla/Java-LeetCode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/swyamshukla/Java-LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0746-min-cost-climbing-stairs](https://github.com/swyamshukla/Java-LeetCode/tree/master/0746-min-cost-climbing-stairs) |
+| [1277-count-square-submatrices-with-all-ones](https://github.com/swyamshukla/Java-LeetCode/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [2915-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/swyamshukla/Java-LeetCode/tree/master/2915-length-of-the-longest-subsequence-that-sums-to-target) |
 ## Combinatorics
 |  |
@@ -227,4 +229,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/swyamshukla/Java-LeetCode/tree/master/0070-climbing-stairs) |
+## Matrix
+|  |
+| ------- |
+| [1277-count-square-submatrices-with-all-ones](https://github.com/swyamshukla/Java-LeetCode/tree/master/1277-count-square-submatrices-with-all-ones) |
 <!---LeetCode Topics End-->
