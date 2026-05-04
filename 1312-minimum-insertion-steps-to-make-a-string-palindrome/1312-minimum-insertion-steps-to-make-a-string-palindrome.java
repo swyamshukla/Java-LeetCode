@@ -1,7 +1,7 @@
 class Solution {
 
     int pallindrome(String s,int left,int right,int[][]dp){
-        if(left==right && s.charAt(left)==s.charAt(right)) return 0;
+        // if(left==right && s.charAt(left)==s.charAt(right)) return 0;
 
         if(left>right) return 0;
         if(dp[left][right]!=-1) return dp[left][right];
