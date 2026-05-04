@@ -1,42 +1,44 @@
+import java.util.*;
+
 class Solution {
-
     public int countSquares(int[][] matrix) {
-        int row = matrix.length;
-        int col = matrix[0].length;
+        int n = matrix.length;
+        int m = matrix[0].length;
 
-        int[][] dp = new int[row][col];
-        for(int i = 0; i < row; i++){
-            Arrays.fill(dp[i], -1);
+        int[][] dp = new int[n][m];
+
+        // first row
+        for (int j = 0; j < m; j++) {
+            dp[0][j] = matrix[0][j];
         }
 
-        int sum = 0;
+        // first column
+        for (int i = 0; i < n; i++) {
+            dp[i][0] = matrix[i][0];
+        }
 
-        for(int i = 0; i < row; i++){
-            for(int j = 0; j < col; j++){
-                sum += solve(matrix, i, j, dp);
+        // fill rest
+        for (int i = 1; i < n; i++) {
+            for (int j = 1; j < m; j++) {
+                if (matrix[i][j] == 1) {
+                    dp[i][j] = 1 + Math.min(
+                        dp[i-1][j],
+                        Math.min(dp[i][j-1], dp[i-1][j-1])
+                    );
+                } else {
+                    dp[i][j] = 0;
+                }
+            }
+        }
+
+        // sum all
+        int sum = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                sum += dp[i][j];
             }
         }
 
         return sum;
-    }
-
-    int solve(int[][] matrix, int i, int j, int[][] dp) {
-
-        // ❌ out of bounds
-        if(i < 0 || j < 0) return 0;
-
-        // ✅ already computed
-        if(dp[i][j] != -1) return dp[i][j];
-
-        // ❌ if cell is 0 → no square
-        if(matrix[i][j] == 0) return dp[i][j] = 0;
-
-        // 🔁 recursive calls
-        int left = solve(matrix, i, j - 1, dp);
-        int up = solve(matrix, i - 1, j, dp);
-        int diag = solve(matrix, i - 1, j - 1, dp);
-
-        // ✅ same formula as tabulation
-        return dp[i][j] = 1 + Math.min(left, Math.min(up, diag));
     }
 }
