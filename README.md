@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/swyamshukla/Java-LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0707-design-linked-list](https://github.com/swyamshukla/Java-LeetCode/tree/master/0707-design-linked-list) |
 ## Stack
 |  |
 | ------- |
@@ -242,4 +243,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/swyamshukla/Java-LeetCode/tree/master/1277-count-square-submatrices-with-all-ones) |
+## Design
+|  |
+| ------- |
+| [0707-design-linked-list](https://github.com/swyamshukla/Java-LeetCode/tree/master/0707-design-linked-list) |
 <!---LeetCode Topics End-->
