@@ -1,17 +1,21 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
+        Set<Integer> hash = new HashSet<>();
+
 
         int write=0;
-        int read=1;
-
+        int read=0;
+        hash.add(nums[0]);
         while(read<nums.length){
-            if(nums[read]!=nums[write]){
+            if(!hash.contains(nums[read])){
                 write++;
                 nums[write]=nums[read];
+                hash.add(nums[read]);
             }
+
             read++;
         }
-        return write+1;
+        return hash.size();
         
     }
 }
