@@ -1,7 +1,6 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
 
-        Set<Integer> hash = new HashSet<>();
         int write=0;
         int read=1;
 
