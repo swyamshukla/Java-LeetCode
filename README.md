@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-last-stone-weight](https://github.com/swyamshukla/Java-LeetCode/tree/master/1046-last-stone-weight) |
 | [1248-count-number-of-nice-subarrays](https://github.com/swyamshukla/Java-LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/swyamshukla/Java-LeetCode/tree/master/1277-count-square-submatrices-with-all-ones) |
+| [1752-check-if-array-is-sorted-and-rotated](https://github.com/swyamshukla/Java-LeetCode/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [2915-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/swyamshukla/Java-LeetCode/tree/master/2915-length-of-the-longest-subsequence-that-sums-to-target) |
 ## Divide and Conquer
 |  |
