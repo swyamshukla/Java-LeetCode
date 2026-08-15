@@ -1,19 +1,12 @@
 class Solution {
     public int singleNumber(int[] nums) {
 
-        if(nums.length<=2) return nums[nums.length-1];
+        int ans=0;
 
-        Arrays.sort(nums);
-
-        int odd=0;
-        int even=1;
-        while(even<nums.length){
-            if(nums[odd]!=nums[even]) return nums[odd];
-            odd+=2;
-            even+=2;
+        for(int val:nums){
+            ans^=val;
         }
-
-        return nums[odd];
+        return ans;
         
     }
 }
