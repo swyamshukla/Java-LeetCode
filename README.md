@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/swyamshukla/Java-LeetCode/tree/master/0222-count-complete-tree-nodes) |
+| [0268-missing-number](https://github.com/swyamshukla/Java-LeetCode/tree/master/0268-missing-number) |
 | [0450-delete-node-in-a-bst](https://github.com/swyamshukla/Java-LeetCode/tree/master/0450-delete-node-in-a-bst) |
 | [0538-convert-bst-to-greater-tree](https://github.com/swyamshukla/Java-LeetCode/tree/master/0538-convert-bst-to-greater-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/swyamshukla/Java-LeetCode/tree/master/0700-search-in-a-binary-search-tree) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/swyamshukla/Java-LeetCode/tree/master/0222-count-complete-tree-nodes) |
+| [0268-missing-number](https://github.com/swyamshukla/Java-LeetCode/tree/master/0268-missing-number) |
 ## String Matching
 |  |
 | ------- |
@@ -126,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/swyamshukla/Java-LeetCode/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/swyamshukla/Java-LeetCode/tree/master/0189-rotate-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/swyamshukla/Java-LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0268-missing-number](https://github.com/swyamshukla/Java-LeetCode/tree/master/0268-missing-number) |
 | [0322-coin-change](https://github.com/swyamshukla/Java-LeetCode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/swyamshukla/Java-LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0414-third-maximum-number](https://github.com/swyamshukla/Java-LeetCode/tree/master/0414-third-maximum-number) |
@@ -153,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0088-merge-sorted-array](https://github.com/swyamshukla/Java-LeetCode/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/swyamshukla/Java-LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0268-missing-number](https://github.com/swyamshukla/Java-LeetCode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/swyamshukla/Java-LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0414-third-maximum-number](https://github.com/swyamshukla/Java-LeetCode/tree/master/0414-third-maximum-number) |
 | [0767-reorganize-string](https://github.com/swyamshukla/Java-LeetCode/tree/master/0767-reorganize-string) |
@@ -182,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/swyamshukla/Java-LeetCode/tree/master/0076-minimum-window-substring) |
 | [0142-linked-list-cycle-ii](https://github.com/swyamshukla/Java-LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/swyamshukla/Java-LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0268-missing-number](https://github.com/swyamshukla/Java-LeetCode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/swyamshukla/Java-LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/swyamshukla/Java-LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/swyamshukla/Java-LeetCode/tree/master/0424-longest-repeating-character-replacement) |
@@ -223,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/swyamshukla/Java-LeetCode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/swyamshukla/Java-LeetCode/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/swyamshukla/Java-LeetCode/tree/master/0189-rotate-array) |
+| [0268-missing-number](https://github.com/swyamshukla/Java-LeetCode/tree/master/0268-missing-number) |
 | [0279-perfect-squares](https://github.com/swyamshukla/Java-LeetCode/tree/master/0279-perfect-squares) |
 | [0973-k-closest-points-to-origin](https://github.com/swyamshukla/Java-LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [1248-count-number-of-nice-subarrays](https://github.com/swyamshukla/Java-LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
