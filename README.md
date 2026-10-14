@@ -225,6 +225,7 @@
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/swyamshukla/Java-LeetCode/tree/master/0007-reverse-integer) |
 | [0062-unique-paths](https://github.com/swyamshukla/Java-LeetCode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/swyamshukla/Java-LeetCode/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/swyamshukla/Java-LeetCode/tree/master/0189-rotate-array) |
