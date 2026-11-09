@@ -107,6 +107,7 @@
 | [0020-valid-parentheses](https://github.com/swyamshukla/Java-LeetCode/tree/master/0020-valid-parentheses) |
 | [0076-minimum-window-substring](https://github.com/swyamshukla/Java-LeetCode/tree/master/0076-minimum-window-substring) |
 | [0387-first-unique-character-in-a-string](https://github.com/swyamshukla/Java-LeetCode/tree/master/0387-first-unique-character-in-a-string) |
+| [0392-is-subsequence](https://github.com/swyamshukla/Java-LeetCode/tree/master/0392-is-subsequence) |
 | [0424-longest-repeating-character-replacement](https://github.com/swyamshukla/Java-LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0516-longest-palindromic-subsequence](https://github.com/swyamshukla/Java-LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0572-subtree-of-another-tree](https://github.com/swyamshukla/Java-LeetCode/tree/master/0572-subtree-of-another-tree) |
@@ -261,6 +262,7 @@
 | [0070-climbing-stairs](https://github.com/swyamshukla/Java-LeetCode/tree/master/0070-climbing-stairs) |
 | [0279-perfect-squares](https://github.com/swyamshukla/Java-LeetCode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/swyamshukla/Java-LeetCode/tree/master/0322-coin-change) |
+| [0392-is-subsequence](https://github.com/swyamshukla/Java-LeetCode/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/swyamshukla/Java-LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/swyamshukla/Java-LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/swyamshukla/Java-LeetCode/tree/master/0583-delete-operation-for-two-strings) |
@@ -301,6 +303,7 @@
 | [0160-intersection-of-two-linked-lists](https://github.com/swyamshukla/Java-LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0189-rotate-array](https://github.com/swyamshukla/Java-LeetCode/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/swyamshukla/Java-LeetCode/tree/master/0234-palindrome-linked-list) |
+| [0392-is-subsequence](https://github.com/swyamshukla/Java-LeetCode/tree/master/0392-is-subsequence) |
 ## Data Stream
 |  |
 | ------- |
