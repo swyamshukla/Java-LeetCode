@@ -15,11 +15,20 @@ public class Power {
         return a * half * half;
 
     }
+    static int powerEff(int a,int b){
+        if(b==0) return 1;
+        if(b==1) return a;
+        int half = powerEff(a, b/2);
+        if(b%2==1) return half * half * a;
+        return half*half;
+
+    }
 
     public static void main(String[] args) {
 
         System.out.println(pow(2, 3));
         System.out.println(pow2(2, 3));
+        System.out.println(powerEff(2,2));
 
         
     }
