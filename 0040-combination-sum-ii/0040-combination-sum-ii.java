@@ -10,7 +10,7 @@ class Solution {
         temp.add(can[idx]); //pick
         subset(result,temp,idx+1,can,target,sum+can[idx]);
         temp.remove(temp.size()-1); // remove back tracking
-        while (idx + 1 < can.length && can[idx] == can[idx + 1]) idx++; // skip duplicate
+        while (idx <can.length-1 && can[idx] == can[idx + 1]) idx++; // skip duplicate
         subset(result,temp,idx+1,can,target,sum);
     }
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
